@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Your description goes here" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <p>Player 1: X</p>
+      <p>Player 2: O</p>
+    </header>
+    <section class="board" id="board">
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+      <section class="cell"></section>
+    </section>
+    <section class="endgame">
+      <span>Tie!</span>
+    </section>
+    <section>
+      <p class="turn">Player 1</p>
+      <button onClick="restartGame()">Replay</button>
+    </section>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
